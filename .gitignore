@@ -1,0 +1,4 @@
+output
+*.pyc
+fabfile.py
+portfolio_env
