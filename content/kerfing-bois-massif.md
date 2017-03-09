@@ -1,6 +1,7 @@
 Title: Laser Kerf cutting et bois massif 
 Date: 2017-07-03
 Category: Menuiserie
+Thumbnail: /media/fauteuil_fdy01_TH.png
 
 Le kerf cutting consiste à découper une planche de telle sorte à le rendre souple. Pour ce faire, 2 approches:
 

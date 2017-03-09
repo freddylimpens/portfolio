@@ -36,5 +36,6 @@ DEFAULT_PAGINATION = False
 #RELATIVE_URLS = True
 
 # THEME = "/home/freddy/src/pelican-themes/simple-bootstrap"
+# THEME = "/home/freddy/src/pelican-themes/photowall"
 # THEME = "/home/freddy/src/blue-penguin"
 THEME = "/home/freddy/src/minimalist-portfolio"
