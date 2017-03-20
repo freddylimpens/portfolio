@@ -68,20 +68,31 @@ some parts
 CNC-milling related problems
 ----------------------------
 
-The first problem is that inner sharp angles cannot be realized due to
-the cylindrical shape of the cutting bit and the fact that it is always
-cutting along an orthogonal axis with respect to the plan of the piece.
-Therefore, in order to achieve the same functionality as sharp angles
---for instance when doing a tenon-mortise type of joint--, one has to
-make an "ear-like" shape around the sharp angles, like in the picture
-below:
+One has to take into account from the modeling step the cylindrical shape of the cutting bit and the fact that it is always
+cutting along an orthogonal axis with respect to the plan of the piece. Therefore the following features have to be adjusted to be feasible with a CNC router (at least the classical 3 axis we are using here).
 
+.. image:: /media/mortaise_CNC.png
+    :height: 150 px
+    :alt: CNC compatible mortise
+    :align: right
+    :class: right
+    
+**Inner sharp angles**
+    Inner sharp angles cannot be realized due to the nature of the cutting bits.
+    Therefore, in order to achieve the same functionality as sharp angles
+    --for instance when doing a tenon-mortise type of joint--, one has to
+    make an "ear-like" shape around the sharp angles, like in the picture
+    aside.
+
+
+**Minimum radius of some curves**
+    For the same reason, one has to be carefull even for curved shapes that the radius of the arcs or ellipses are not inferior to that of the cutting bit we'll have at our disposal.
 
 
 Exporting
 ---------
 
--  Changed export settings to have the 2D DXF exports made from current
+-  In "Preferences" menu, export settings, ticked the option so that 2D DXF exports made from current
    view projections
 -  then select each part and export to DXF
 
@@ -105,4 +116,23 @@ Parameters
 ----------
 
 At this step of the workflow, one has to already know which milling bit
-to use, which material, and how the piece will be placed on the machine.
+to use, which material, and how the piece will be placed on the machine. 
+
+Here are the parameters I used:
+
+- Tool used:
+    - type: double helicoidal
+    - diameter: 6mm
+    - Z pass: 6mm (how much down it goes at each pass)
+    - Tool nominal Rotation speed:  ? rpm
+- feed speed : ? mm/mn  
+- mandrin rotation speed: ?
+- Ponticelli (bits of material uncut so that the piece stays in place):
+    - length: 5mm
+    - height: 3-5 mm
+    - type : 3D (makes it like a little "mountain")
+    - number: 4 to 6
+
+The machine used
+----------------
+
