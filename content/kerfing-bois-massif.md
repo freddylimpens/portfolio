@@ -1,4 +1,5 @@
 Title: Laser Kerf cutting et bois massif 
+ShortTitle: Laser Kerf cutting et bois massif 
 Date: 2017-07-03
 Category: Menuiserie
 Thumbnail: /media/fauteuil_fdy01.jpg
