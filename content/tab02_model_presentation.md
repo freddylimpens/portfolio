@@ -5,7 +5,7 @@ Date: '2017-07-03'
 Thumbnail: /media/thumbs/IMGP6823.JPG
 
 
-![tabouret02\_3/4](/media/IMGP6823.JPG)
+![tabouret02\_3/4]({filename}/media/IMGP6823.JPG)
 
 Matériau :   Pin massif pour les piètements et traverses, Contre-Plaqué de bouleau pour l'assise
 Dimensions:   Haut. x Prof. X Larg. = 450 x 500 X 480 mm
@@ -18,6 +18,6 @@ joints aux piètements par des tenons-mortaises, eux-aussi adaptés aux
 contraintes de l'usinage CNC (cf [First steps in CNC
 milling]({filename}CNC_Milling.rst))
 
-![tabouret02\_3/4](/media/IMGP6826.JPG)
+![tabouret02\_3/4]({filename}/media/IMGP6826.JPG)
 
-![tabouret02\_pièces](/media/IMGP6841.JPG)
+![tabouret02\_pièces]({filename}/media/IMGP6841.JPG)

@@ -1,10 +1,11 @@
 My first steps in CNC-milling with solid wood
 #############################################
 
+:shorttitle: CNC milling solid wood
 :date: 2017-03-17 10:00
 :tags: CNC, Solid Wood, Design, Modelling
 :category: Menuiserie
-:thumbnail: /media/digital_wood_joint.jpg
+:thumbnail: /media/thumbs/digital_wood_joint.jpg
 
 
 Here is a bit of reports from my experience in CNC-milling with solid
@@ -71,7 +72,7 @@ CNC-milling related problems
 One has to take into account from the modeling step the cylindrical shape of the cutting bit and the fact that it is always
 cutting along an orthogonal axis with respect to the plan of the piece. Therefore the following features have to be adjusted to be feasible with a CNC router (at least the classical 3 axis we are using here).
 
-.. image:: /media/mortaise_CNC.png
+.. image:: {filename}/media/mortaise_CNC.png
     :height: 150 px
     :alt: CNC compatible mortise
     :align: right
@@ -105,7 +106,7 @@ Using ArtCAM
 ------------
 
 Due to licence limitations, had to use 2 versions of ArtCAM to produce
-the 2 types of work I need:
+the 2 types of works I need:
 
 -  **voidings** for milling mortises, shoulders with ArtCAM 2015
    (nonFree)
@@ -127,7 +128,7 @@ Here are the parameters I used:
     - Tool nominal Rotation speed:  ? rpm
 - feed speed : ? mm/mn  
 - mandrin rotation speed: ?
-- Ponticelli (bits of material uncut so that the piece stays in place):
+- Bridges (bits of material uncut so that the piece stays in place):
     - length: 5mm
     - height: 3-5 mm
     - type : 3D (makes it like a little "mountain")

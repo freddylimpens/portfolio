@@ -4,10 +4,11 @@ from __future__ import unicode_literals
 
 AUTHOR = u'fdy@limpica.net'
 SITENAME = u'Fdy Projects'
-SITEURL = ''
+SITEURL = '/fdy'
 
 PATH = 'content'
 STATIC_PATHS = ['media']
+OUTPUT_PATH = 'output/fdy'
 
 TIMEZONE = 'Europe/Paris'
 
