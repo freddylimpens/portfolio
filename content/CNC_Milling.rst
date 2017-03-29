@@ -4,9 +4,9 @@ My first steps in CNC-milling with solid wood
 :shorttitle: CNC milling solid wood
 :date: 2017-03-17 10:00
 :tags: CNC, Solid Wood, Design, Modelling
-:category: Menuiserie
+:category: Notes
 :thumbnail: /media/thumbs/digital_wood_joint.jpg
-
+:authors: fdy
 
 Here is a bit of reports from my experience in CNC-milling with solid
 wood. I'll explain the incentives that lead me to this project and I'll

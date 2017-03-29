@@ -1,4 +1,4 @@
-A propos
+About
 ########
 
 :category: About
