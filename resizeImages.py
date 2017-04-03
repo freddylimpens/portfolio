@@ -34,22 +34,23 @@ def main():
     source_folder = os.path.join(os.getcwd(), photo_source_folder)
     output_big_folder = os.path.join(source_folder,"pics")
     output_thumb_folder = os.path.join(source_folder,"thumbs")
-    ensure_dir(output_big_folder)
+    #ensure_dir(output_big_folder)
     ensure_dir(output_thumb_folder)
 
     dirList = [fname for fname in os.listdir(source_folder)
                      if fname.lower().endswith(".png") or fname.lower().endswith(".jpg")]
     for fname in dirList:
-        print "Resizing %s" % fname
         image = Image.open(os.path.join(source_folder,fname))
+        #print "Resizing %s" % fname
         # If already smaller than target size, copy as is
-        if image.size[0] <= 640 and image.size[1] <= 400:
-            image.save(os.path.join(output_big_folder,fname), quality = 92)
-        else:
-            image_big = image.copy()
-            image_big.thumbnail((max_width, max_height), Image.ANTIALIAS)
-            image_big.save(os.path.join(output_big_folder,fname), quality = 92)
+        # if image.size[0] <= 640 and image.size[1] <= 400:
+        #     image.save(os.path.join(output_big_folder,fname), quality = 92)
+        # else:
+        #     image_big = image.copy()
+        #     image_big.thumbnail((max_width, max_height), Image.ANTIALIAS)
+        #     image_big.save(os.path.join(output_big_folder,fname), quality = 92)
         # generate thumbnails    
+        print "Thumbnailing %s" % fname
         thumbnail = ImageOps.fit(image, thumb_size, Image.ANTIALIAS)
         thumbnail.save(os.path.join(output_thumb_folder,fname), quality = 90)
              

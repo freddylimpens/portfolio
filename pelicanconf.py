@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = u'contact@limpica.net'
 SITENAME = u'Limpica.net'
 SITEURL = '/staging'
-SITESUBTITLE = 'CéCiLe Picard & FredDY Limpens works and ideas'
+SITESUBTITLE = '<i>C</i>é<i>C</i>i<i>L</i>e Picard & <i>F</i>red<i>DY</i> Limpens works and ideas'
 
 PATH = 'content'
 STATIC_PATHS = ['media']

@@ -1,0 +1,15 @@
+Fdy - Freddy Limpens
+####################
+:date: 2014-08-29 13:42
+:author: admin
+:category: Uncategorized
+:slug: 681
+:status: draft
+
+|image0|
+
+.. |image0| image:: http://pl-area.net/wp-content/uploads/2014/08/VELO06-300x126.jpg
+   :class: alignnone size-medium wp-image-682
+   :width: 300px
+   :height: 126px
+   :target: http://pl-area.net/wp-content/uploads/2014/08/VELO06.jpg
