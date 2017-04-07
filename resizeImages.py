@@ -27,7 +27,7 @@ def main():
     max_height = 800
 
     # set thumbnail size
-    thumb_size = (240, 150)
+    thumb_size = (240, 220)
 
     # optional - set the folder names if different names needed
     photo_source_folder = "media"

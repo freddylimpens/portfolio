@@ -3,9 +3,9 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'contact@limpica.net'
-SITENAME = u'Limpica.net'
+SITENAME = u'LIMPICA.net'
 SITEURL = '/staging'
-SITESUBTITLE = '<i>C</i>é<i>C</i>i<i>L</i>e Picard & <i>F</i>red<i>DY</i> Limpens works and ideas'
+SITESUBTITLE = 'Ccl. Picard & Fdy. Limpens works and ideas'
 
 PATH = 'content'
 STATIC_PATHS = ['media']
@@ -35,8 +35,8 @@ DISPLAY_HOME = False
 MENU_INTERNAL_PAGES = (
     ('Projects', 'category/projects.html', 'category/projects.html'),
     ('Notes', 'category/notes.html', 'category/notes.html'),
-    ('CCL', 'author/ccl.html', 'author/ccl.html'),
-    ('FDY', 'author/fdy.html', 'author/fdy.html'),
+    ('Ccl', 'author/ccl.html', 'author/ccl.html'),
+    ('Fdy', 'author/fdy.html', 'author/fdy.html'),
 )
 MENUITEMS = (
     # ('CV', 'http://limpica.net/fdy/cv'),
