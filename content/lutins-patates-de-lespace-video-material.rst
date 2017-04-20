@@ -4,7 +4,7 @@ Lutins Patates de l'Espace - Live Visual
 :date: 2009-03-22 16:58
 :author: admin
 :category: Projects
-:tags: videos, installation
+:tags: video, installation
 :slug: lutins-patates-de-lespace-video-material
 :status: published
 :thumbnail: /media/thumbs/lutins-melies01.png
