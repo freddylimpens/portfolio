@@ -7,10 +7,8 @@ Lutins Patates de l'Espace - Live Visual
 :tags: video, installation
 :slug: lutins-patates-de-lespace-video-material
 :status: published
-:thumbnail: /media/thumbs/lutins-melies01.png
+:image: lutins-melies01.png
 
-.. image:: {filename}/media/thumbs/lutins-melies01.png
-    :alt: Lutin Melies Live Video
 
 A video has been produced for the post-rock band `Les Lutins Patates de
 l'Espace <https://myspace.com/leslutinspatatesdelespace>`__ and has been used for their

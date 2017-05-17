@@ -2,65 +2,88 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = u'contact@limpica.net'
-SITENAME = u'LIMPICA.net'
-SITEURL = '/staging'
-SITESUBTITLE = 'Ccl. Picard & Fdy. Limpens works and ideas'
-
-PATH = 'content'
-STATIC_PATHS = ['media']
-OUTPUT_PATH = 'output/staging'
+AUTHOR = u'Ccl & Fdy'
+SITENAME = u'LIMPICA'
+SITEURL = '/stagingCCL'
+SITESUBTITLE1 = 'Ccl. Picard & Fdy. Limpens'
+SITESUBTITLE2 = 'works & ideas'
 
 TIMEZONE = 'Europe/Paris'
 
-DEFAULT_LANG = u'fr'
+DEFAULT_LANG = u'en'
+
+THEME_STATIC_DIR = 'static'
+PATH = 'content'
+STATIC_PATHS = [ 'images','mail','js', 'css', 'fonts']
+OUTPUT_PATH = 'output/stagingCCL'
+EXTRA_PATH_METADATA = {
+    'static/images/portfolio': {'path': 'images/portfolio'},
+    }
+# TIMEZONE = 'America/Phoenix'
+
+DEFAULT_LANG = 'en'
+BOOTSTRAP_FILE = 'bootstrap.min.css'
+CSS_FILE = 'freeagent.css'
+FONTS = 'fonts'
+SCRIPTS = [
+	'jquery-1.11.0.js',
+	'bootstrap.min.js',
+	'http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js',
+	'classie.js',
+	'cbpAnimatedHeader.js',
+	'jqBootstrapValidation.js',
+	'contact_me.js',
+	'freeagent.js'
+]
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
-AUTHOR_FEED_ATOM = None
-AUTHOR_FEED_RSS = None
 
-TAGS_URL           = 'tags'
-TAGS_SAVE_AS       = 'tags/index.html'
-AUTHORS_URL        = 'authors'
-AUTHORS_SAVE_AS    = 'authors/index.html'
-CATEGORIES_URL     = 'categories'
-CATEGORIES_SAVE_AS = 'categories/index.html'
-ARCHIVES_URL       = 'archives'
-ARCHIVES_SAVE_AS   = 'archives/index.html'
+DIRECT_TEMPLATES = ['index']
 
-DISPLAY_HOME = False
-MENU_INTERNAL_PAGES = (
-    ('Projects', 'category/projects.html', 'category/projects.html'),
-    ('Notes', 'category/notes.html', 'category/notes.html'),
-    ('Ccl', 'author/ccl.html', 'author/ccl.html'),
-    ('Fdy', 'author/fdy.html', 'author/fdy.html'),
+# Top Menu Links
+NAVLINKS = (
+	('#page-top', ''),
+	('#portfolio', 'Portfolio'),
+    #('#notes', 'Notes'),
+	('#about', 'About'),
+	('#contact', 'Contact')
 )
-MENUITEMS = (
-    # ('CV', 'http://limpica.net/fdy/cv'),
+
+# Portfolio Name
+PORTFOLIO = 'Portfolio'
+# Notes Name
+NOTES = 'Notes'
+
+
+#Contact form fields sorted by: label, input_type, id, required_validation_,msg
+CONTACT_FIELDS = (
+	['Name', 'text', 'name', 'Please enter your name.'],
+	['Email Address', 'email', 'email','Please enter your email address.' ],
+	['Phone Number', 'tel', 'phone', 'Please enter your phone number.'],
+	['Message', 'textarea', 'message', 'Please enter a message.']
 )
-# Social widget
-# SOCIAL = (('You can add links in your config file', '#'),
-        #   ('Another social link', '#'),)
 
-DEFAULT_PAGINATION = False
+ADDRESS1 = 'FRANCE - ITALY'
+# Left column
+ABOUT_1 = 'After graduating as an acoustic engineer, Cécile Picard-Limpens obtained her PhD in Computer Science (INRIA, Sophia-Antipolis) on Modeling and Sound Synthesis for Virtual Environments, then worked at the Haute Ecole de Musique in Genève (CH) and to Numédiart (Mons, BE) on research projects combining sound synthesis and human-machine interaction. Freddy Limpens received a PhD from INRIA where he worked on tagging and folksonomies, seeking novel ways to interconnect Social Web and Semantic Web.'
+# Right column
+ABOUT_2 = '<p>What we perceive constructs us. We are what we feel, what we see, what we hear. But perception is not a faculty per se, it is printed from what we are.. our observation point is localised by our own body, which, just by filling a volume, might influence the observation itself... so the question loops and never ends. This mere question is endless and simply virtiginuous. We have no aim to answer it, just the desire to explore the complexity of the imbrication. The of the camera will not overcome the ambiguity of perception. However, we consider the camera as a tool for exploring what we may perceive, a window opened on our subconscience.</p>'
+# Center
+#ABOUT_CENTER = '<a href="https://github.com/thetawavestudio" target="_blank" class="btn btn-lg btn-outline"><i class="fa fa-download">Go to my Github</i> </a>'
 
-# Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+# Blogroll
+LINKS = (('Pelican', 'http://getpelican.com/'),
+         ('Python.org', 'http://python.org/'),
+         ('Jinja2', 'http://jinja.pocoo.org/'),
+         ('You can modify those links in your config file', '#'),)
 
-#THEME = "/home/freddy/src/pelican-themes/simple-bootstrap"
-THEME = "/home/freddy/src/pelican-themes/photowall"
-# THEME = "/home/freddy/src/blue-penguin"
-#THEME = "../minimalist-portfolio"
 
-MARKDOWN = {
-    'extension_configs': {
-        'markdown.extensions.codehilite': {'css_class': 'highlight'},
-        'markdown.extensions.extra': {},
-        'markdown.extensions.meta': {},
-        'markdown.extensions.attr_list': {},
-    },
-    'output_format': 'html5',
-}
+
+# THEME = "../pelican-themes/simple-bootstrap"
+# THEME = "../pelican-themes/photowall"
+# THEME = "../pelican-themes/pure"
+THEME = "../pelican-free-agent-limpica"
+# THEME = "../../minimalist-portfolio"

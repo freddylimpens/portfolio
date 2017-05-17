@@ -8,14 +8,14 @@ OUTPUTDIR=$(BASEDIR)/output
 CONFFILE=$(BASEDIR)/pelicanconf.py
 PUBLISHCONF=$(BASEDIR)/publishconf.py
 
-FTP_HOST=ftp.cluster020.hosting.ovh.net
-FTP_USER=limpicantb
-FTP_TARGET_DIR=/www/fdy
+FTP_HOST=localhost
+FTP_USER=anonymous
+FTP_TARGET_DIR=/
 
-SSH_HOST=limpicantb@ssh.cluster020.hosting.ovh.net
+SSH_HOST=localhost
 SSH_PORT=22
-SSH_USER=limpicantb
-SSH_TARGET_DIR=/var/www/fdy
+SSH_USER=root
+SSH_TARGET_DIR=/var/www
 
 S3_BUCKET=my_s3_bucket
 
@@ -25,7 +25,7 @@ CLOUDFILES_CONTAINER=my_cloudfiles_container
 
 DROPBOX_DIR=~/Dropbox/Public/
 
-GITHUB_PAGES_BRANCH=master
+GITHUB_PAGES_BRANCH=gh-pages
 
 DEBUG ?= 0
 ifeq ($(DEBUG), 1)

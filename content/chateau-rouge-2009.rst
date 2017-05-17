@@ -7,9 +7,7 @@ Nuit Blanche 2009 - Chateau Rouge, Annemasse
 :tags: installation, video
 :slug: chateau-rouge-2009
 :status: published
-:thumbnail: /media/thumbs/chateau_rouge_install.JPG
-
-.. image:: {filename}/media/chateau_rouge_install.JPG
+:image: chateau_rouge_install.JPG
 
 Video Installation in collaboration with `Collectif
 Coin <http://www.collectif-coin.com>`__ from Grenoble (F) for the "Nuit

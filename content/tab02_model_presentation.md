@@ -1,13 +1,13 @@
-Title: Tab-02 : Premier modèle de tabouret usinée entièrement à la CNC
+Title: Premier modèle de tabouret usiné à la CNC
 ShortTitle: Tabouret 02
 Category: Projects
 Date: '2017-07-03'
-Thumbnail: /media/thumbs/IMGP6823.JPG
+Image: IMGP6823.JPG
 tags: design, cnc, wood
 authors: fdy
 
 
-![tabouret02\_3/4]({filename}/media/IMGP6823.JPG){: data-lightbox='tab02'}
+<!--![tabouret02\_3/4](IMGP6823.JPG){: data-lightbox='tab02'}-->
 
 Matériau :   Pin massif pour les piètements et traverses, Contre-Plaqué de bouleau pour l'assise
 Dimensions:   Haut. x Prof. X Larg. = 450 x 500 X 480 mm
@@ -18,8 +18,8 @@ entièrement usinés avec une fraiseuse CNC. Le piètement est réalisée par
 CNC) renforcée par un épaulement de 5mm. Les supports de l'assise sont
 joints aux piètements par des tenons-mortaises, eux-aussi adaptés aux
 contraintes de l'usinage CNC (cf [First steps in CNC
-milling]({filename}CNC_Milling.rst))
+milling]({filename}CNC_Milling.md))
 
-![tabouret02\_3/4]({filename}/media/IMGP6826.JPG){: data-lightbox="tab02"}
+![tabouret02\_3/4](images/portfolio/IMGP6826.JPG){: .right width='100%'}
 
-![tabouret02\_pièces]({filename}/media/IMGP6841.JPG){: data-lightbox="tab02"}
+![tabouret02\_pièces](images/portfolio/IMGP6841.JPG){: .right width='100%'}
