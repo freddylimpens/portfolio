@@ -4,24 +4,21 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Ccl & Fdy'
 SITENAME = u'LIMPICA'
-SITEURL = '/stagingCCL'
+SITEURL = '/staging'
 SITESUBTITLE1 = 'Ccl. Picard & Fdy. Limpens'
 SITESUBTITLE2 = 'works & ideas'
 
 TIMEZONE = 'Europe/Paris'
-
 DEFAULT_LANG = u'en'
 
 THEME_STATIC_DIR = 'static'
 PATH = 'content'
 STATIC_PATHS = [ 'images','mail','js', 'css', 'fonts']
-OUTPUT_PATH = 'output/stagingCCL'
 EXTRA_PATH_METADATA = {
     'static/images/portfolio': {'path': 'images/portfolio'},
     }
-# TIMEZONE = 'America/Phoenix'
+OUTPUT_PATH = 'output/staging'
 
-DEFAULT_LANG = 'en'
 BOOTSTRAP_FILE = 'bootstrap.min.css'
 CSS_FILE = 'freeagent.css'
 FONTS = 'fonts'
@@ -33,7 +30,8 @@ SCRIPTS = [
 	'cbpAnimatedHeader.js',
 	'jqBootstrapValidation.js',
 	'contact_me.js',
-	'freeagent.js'
+	'freeagent.js',
+    'isotope.pkgd.min.js',
 ]
 
 # Feed generation is usually not desired when developing
@@ -57,7 +55,6 @@ PORTFOLIO = 'Portfolio'
 # Notes Name
 NOTES = 'Notes'
 
-
 #Contact form fields sorted by: label, input_type, id, required_validation_,msg
 CONTACT_FIELDS = (
 	['Name', 'text', 'name', 'Please enter your name.'],
@@ -67,6 +64,7 @@ CONTACT_FIELDS = (
 )
 
 ADDRESS1 = 'FRANCE - ITALY'
+
 # Left column
 ABOUT_1 = 'After graduating as an acoustic engineer, Cécile Picard-Limpens obtained her PhD in Computer Science (INRIA, Sophia-Antipolis) on Modeling and Sound Synthesis for Virtual Environments, then worked at the Haute Ecole de Musique in Genève (CH) and to Numédiart (Mons, BE) on research projects combining sound synthesis and human-machine interaction. Freddy Limpens received a PhD from INRIA where he worked on tagging and folksonomies, seeking novel ways to interconnect Social Web and Semantic Web.'
 # Right column
