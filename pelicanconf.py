@@ -66,11 +66,11 @@ CONTACT_FIELDS = (
 ADDRESS1 = 'FRANCE - ITALY'
 
 # Left column
-ABOUT_1 = 'After graduating as an acoustic engineer, Cécile Picard-Limpens obtained her PhD in Computer Science (INRIA, Sophia-Antipolis) on Modeling and Sound Synthesis for Virtual Environments, then worked at the Haute Ecole de Musique in Genève (CH) and to Numédiart (Mons, BE) on research projects combining sound synthesis and human-machine interaction. Freddy Limpens received a PhD from INRIA where he worked on tagging and folksonomies, seeking novel ways to interconnect Social Web and Semantic Web.'
+ABOUT_1 = 'After graduating as an acoustic engineer, Cécile Picard-Limpens obtained her PhD in Computer Science (INRIA, Sophia-Antipolis) on Modeling and Sound Synthesis for Virtual Environments, then worked at the Haute Ecole de Musique in Genève (CH) and to Numédiart (Mons, BE) on research projects combining sound synthesis and human-machine interaction. '
 # Right column
-ABOUT_2 = '<p>What we perceive constructs us. We are what we feel, what we see, what we hear. But perception is not a faculty per se, it is printed from what we are.. our observation point is localised by our own body, which, just by filling a volume, might influence the observation itself... so the question loops and never ends. This mere question is endless and simply virtiginuous. We have no aim to answer it, just the desire to explore the complexity of the imbrication. The of the camera will not overcome the ambiguity of perception. However, we consider the camera as a tool for exploring what we may perceive, a window opened on our subconscience.</p>'
+ABOUT_2 = 'Freddy Limpens received a PhD from INRIA where he worked on tagging and folksonomies, seeking novel ways to interconnect Social Web and Semantic Web.'
 # Center
-#ABOUT_CENTER = '<a href="https://github.com/thetawavestudio" target="_blank" class="btn btn-lg btn-outline"><i class="fa fa-download">Go to my Github</i> </a>'
+ABOUT_CENTER = '</br>What we perceive constructs us. We are what we feel, what we see, what we hear. But perception is not a faculty per se, it is printed from what we are.. our observation point is localised by our own body, which, just by filling a volume, might influence the observation itself... so the question loops and never ends. This mere question is endless and simply virtiginuous. We have no aim to answer it, just the desire to explore the complexity of the imbrication. The <em>objectivity</em> of the camera will not overcome the ambiguity of perception. However, we consider the camera as a tool for exploring what we may perceive, a window opened on our subconscience.</a>'
 
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
