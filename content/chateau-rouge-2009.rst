@@ -2,9 +2,9 @@ Nuit Blanche 2009 - Chateau Rouge, Annemasse
 ############################################
 :shorttitle: Nuit Blanche Annemasse 2009
 :date: 2009-05-30 16:22
-:author: admin
+:authors: fdy, ccl
 :category: Projects
-:tags: installation, video
+:tags: installation
 :slug: chateau-rouge-2009
 :status: published
 :image: chateau_rouge_install.JPG

@@ -3,8 +3,9 @@ ShortTitle: Kerf cutting & bois massif
 Date: 2017-07-03
 Category: Notes
 Image: kerf_cutting_wood_bend.jpg
-tags: kerffing, laser
+tags: fabrication
 authors: fdy
+status: draft
 
 Le kerf cutting consiste à découper une planche de telle sorte à le rendre souple. Pour ce faire, 2 approches:
 

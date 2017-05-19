@@ -3,7 +3,7 @@ ShortTitle: Tabouret 02
 Category: Projects
 Date: '2017-07-03'
 Image: IMGP6823.JPG
-tags: design, cnc, wood
+tags: fabrication
 authors: fdy
 
 

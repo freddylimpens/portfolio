@@ -4,7 +4,7 @@ Web Site design for artist Jelena Vasiliev
 :date: 2012-11-15
 :author: ccl
 :category: Projects
-:tags: web-design, web-site
+:tags: web
 :slug: jelena_web_site
 :status: published
 :image: jele_website_TH.png

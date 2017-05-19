@@ -3,6 +3,7 @@ Category: Notes
 Date: '2017-03-17'
 Image: digital_wood_joint.jpg
 authors: fdy
+status: draft 
 
 Here is a bit of reports from my experience in CNC-milling with solid
 wood. I'll explain the incentives that lead me to this project and I'll
