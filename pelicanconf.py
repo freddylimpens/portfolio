@@ -30,8 +30,9 @@ SCRIPTS = [
 	'cbpAnimatedHeader.js',
 	'jqBootstrapValidation.js',
 	'contact_me.js',
-	'freeagent.js',
+    'imagesloaded.pkgd.min.js',
     'isotope.pkgd.min.js',
+    'freeagent.js',
 ]
 
 # Feed generation is usually not desired when developing
