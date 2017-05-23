@@ -12,4 +12,5 @@ Preparation work for the installation <i>Pixel Sunrise</i>, Meryll Hardt: a prot
 
 <br/>
 <a href="http://www.lefresnoy.net/panorama16/#/aw/38/Pixel%20Sunrise" target="_blank">Panorama 16 SOLUS LOCUS - <i>Pixel Sunrise</i>, Meryll Hardt</a>
+
 <a href="https://vimeo.com/112378197" target="_blank"> Installation in-situ</a>
