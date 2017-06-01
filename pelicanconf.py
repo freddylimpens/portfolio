@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Ccl & Fdy'
 SITENAME = u'LIMPICA'
-SITEURL = '/staging'
+SITEURL = '/'
 SITESUBTITLE1 = 'Ccl. Picard & Fdy. Limpens'
 SITESUBTITLE2 = 'works & ideas'
 
@@ -17,7 +17,7 @@ STATIC_PATHS = [ 'images','mail','js', 'css', 'fonts']
 EXTRA_PATH_METADATA = {
     'static/images/portfolio': {'path': 'images/portfolio'},
     }
-OUTPUT_PATH = 'output/staging'
+OUTPUT_PATH = 'output/'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
