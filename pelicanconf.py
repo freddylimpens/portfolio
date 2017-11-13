@@ -49,6 +49,7 @@ FONTS = 'fonts'
 SCRIPTS = [
 	'jquery-1.11.0.js',
 	'bootstrap.min.js',
+    'modal_access.js',
 	'http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js',
 	'classie.js',
 	'cbpAnimatedHeader.js',
