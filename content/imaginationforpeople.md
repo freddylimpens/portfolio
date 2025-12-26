@@ -1,4 +1,4 @@
-Title: Imagination for People - collaborative social platform
+  Title: Imagination for People - collaborative social platform
 ShortTitle: Imagination for People
 Category: Projects
 Date: '2013-11-01'
