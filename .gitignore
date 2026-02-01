@@ -2,3 +2,5 @@ output
 *.pyc
 fabfile.py
 portfolio_env
+.venv
+.DS_Store
